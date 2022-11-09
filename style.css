@@ -65,7 +65,7 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: rgb(250, 240, 240);
     padding: 20px;
     margin-top: 20px;
   }

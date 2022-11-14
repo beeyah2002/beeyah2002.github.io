@@ -37,7 +37,7 @@
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(224, 120, 120);
     color: black;
   }
   
@@ -65,7 +65,7 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: rgb(250, 240, 240);
+    background-color: rgb(242, 166, 166);
     padding: 20px;
     margin-top: 20px;
   }
@@ -81,7 +81,7 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(219, 232, 173);
     margin-top: 20px;
   }
   

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+nav {
+    width: 100%;
+    height: 10vw;
+    background: linear-gradient(125deg, #c458b7 , #ca49bb);
+}
+.nav-container {
+    max-width: 90vw;
+    height: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonav{
+    width: 15vw;
+    object-fit: contain;
+}
+.nav-profile {
+    
+    display: flex;
+    align-items: center;
+}
+.nav-profile-name {
+    color: white;
+    font-size: 1.2vw;
+    margin-right: 10px;
+}
+.fa-cart-shopping {
+    font-size: 2vw;
+    color: white;
+}
+.nav-profile-cart {
+    position: relative;
+}
+.cart-count {
+    position: absolute;
+    top: -16px;
+    right: -15px;
+    width: 25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 90vw;
+    
+    margin: 0 auto;
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.sidebar-search {
+    font-size: 1.2vw;
+    padding: 10px;
+    border: 2px solid transparent;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+.sidebar-search:focus {
+    border: 2px solid red;
+}
+.sidebar-items {
+    font-size: 1.2vw;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px soled #e5e5e5;
+    color: black;
+    transition: .3s;
+    text-align: center;
+}
+.sidebar-items:hover {
+    background: #9c1032;
+    color: white;
+}
+.product-items {
+    text-align: center;
+    cursor: pointer; 
+    transition: 0.3s;
+}
+.product-items:hover {
+    transform: scale(1.03);
+}
+.product-img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.font-product-nema {
+    font-size: 1.2vw;
+}
+.font-product-price {
+    font-size: 1vw;
+}
+.modal,
+.modal-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal-page {
+    z-index: 99;
+    min-width: 30vw;
+    max-height: 30vw;
+    max-width: 60vw;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: scroll;
+}
+.modaldesc-content {
+   
+    display: flex;
+    width: 100%;
+}
+.modaldesc-detail {
+    
+    margin-left: 20px;
+}
+.modal-img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.modal-font-product-name {
+    font-size: 1.5vw;
+}
+.modal-font-product-price {
+    font-size: 1.2vw;
+}
+.modal-font-product-detail {
+    font-size: 1vw;
+    color: #adadad;
+}
+.dtn-control {
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    transition: 0.3s;
+}
+.btn-buy {
+    background: linear-gradient(125deg, #e61b36 , #9c1032);
+    color: white;
+    margin-left: 10px;
+}
+
+.carlist-items {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin-bottom: 20px;
+}
+.cartlist-lift {
+    
+    display: flex;
+}
+.cartlist-right {
+    
+    display: flex;
+    align-items: center;
+}
+.cartlist-lift img {
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btnc {
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
